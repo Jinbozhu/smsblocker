@@ -7,13 +7,24 @@
     <FrameLayout
         android:id="@+id/activity_main_frameLayout_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
+        android:layout_height="match_parent">
 
-    <!--<fragment
-        android:id="@+id/activity_main_fragment_container"
-        android:name="com.marvik.apis.core.fragments.FragmentWrapper"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@layout/fragment_wrapper"/>-->
+        <TextView
+            android:id="@+id/not_default_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Not default app"
+            android:layout_gravity="center_horizontal|top" />
+
+        <Button
+            android:id="@+id/change_default_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set to default app"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
 
 </RelativeLayout>

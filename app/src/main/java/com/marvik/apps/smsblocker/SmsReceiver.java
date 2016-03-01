@@ -1,4 +1,4 @@
-package com.marvik.apps.smsblocker.receivers.sms;
+package com.marvik.apps.smsblocker;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
